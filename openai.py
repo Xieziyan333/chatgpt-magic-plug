@@ -17,7 +17,7 @@ class OpenAi:
     def get_answer(self,prompt,max_tokens,temperature):
         keys = configs['keys']
         key = random.choices(keys)
-        api_key = key[0]
+        api_key = key[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]
         if max_tokens <= 4096 and temperature <= 0.9:
             if prompt:
                 headers = {
